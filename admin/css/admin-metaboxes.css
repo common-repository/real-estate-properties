@@ -1,0 +1,92 @@
+/*  Pearl Admin Meta Box CSS  */
+
+.pearl-feature {
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.feature-placeholder{
+    margin: 5px 0;
+    background: #fafafa;
+    height: 29px;
+}
+
+.pearl-feature label{
+    display: block;
+}
+
+.pearl-feature input[type="text"]{
+    width: 97%;
+}
+
+.pearl-feature-control{
+    width: 3%;
+    float: left;
+    color: #aaa;
+}
+
+.sort-feature{
+    cursor: move;
+}
+
+.sort-feature:hover{
+    color: #666;
+}
+
+.pearl-feature-title{
+    width: 34%;
+    float: left;
+}
+
+.pearl-feature-value{
+    width: 60%;
+    float: left;
+}
+
+.pearl-features-wrapper a{
+    color: #aaa;
+}
+
+.pearl-features-wrapper a:hover,
+.pearl-features-wrapper a:focus{
+    color: #666;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pearl-features-wrapper .dashicons{
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+@media all and ( max-width: 1200px ) {
+
+    .pearl-feature-control{
+        width: 4%;
+    }
+    .pearl-feature-title{
+        width: 34%;
+    }
+
+    .pearl-feature-value{
+        width: 58%;
+    }
+
+}
+
+@media all and ( max-width: 500px ) {
+
+    .pearl-feature-control{
+        width: 5%;
+    }
+    .pearl-feature-title{
+        width: 32%;
+    }
+    .pearl-feature-value{
+        width: 58%;
+    }
+    .pearl-features-wrapper .dashicons{
+        margin-top: 8px;
+    }
+
+}
